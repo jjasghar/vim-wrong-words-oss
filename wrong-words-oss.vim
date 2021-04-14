@@ -1,6 +1,7 @@
 highlight wrongWords ctermbg=red ctermfg=white
 function WrongWords()
     let words=[
+                \ 'blacklist', 
                 \ 'basic', 
                 \ 'basically',  
                 \ 'clearly',
@@ -18,6 +19,7 @@ function WrongWords()
                 \ 'just', 
                 \ 'largely',
                 \ 'many',
+                \ 'master',
                 \ 'mostly',
                 \ 'obvious', 
                 \ 'obviously', 
@@ -28,6 +30,7 @@ function WrongWords()
                 \ 'several',
                 \ 'significantly',
                 \ 'simply', 
+                \ 'slave', 
                 \ 'tiny',
                 \ 'trivial', 
                 \ 'trivially',
