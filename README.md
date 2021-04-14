@@ -8,13 +8,9 @@ I finally sat down and read [this](https://twitter.com/JessTelford/status/992756
 
 # Usage
 
-1. Pull this directory down.
-2. Load the `wrong-words-oss.vim` into your vim instance somehow. ex:
-```
-:so ~/src/vim-wrong-words-oss/wrong-words-oss.vim
-:call WrongWords() " if you want to call it directly
-```
-3. If you do load the file, you will also run it when you leave `InsertMode`.
+1. Confirm you have a `.vim/plugins/` directory or the like.
+2. Clone or copy the `wrong-words-oss.vim` into that directory.
+3. This should start highlighting the words in your `.md`, `.txt`, `.rst` files when you exit `insert` mode.
 
 ## License & Authors
 
